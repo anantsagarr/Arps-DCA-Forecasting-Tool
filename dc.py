@@ -1,4 +1,3 @@
-!pip install matplotlib
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -296,8 +295,5 @@ elif st.session_state.page == 'upload_csv':
                 # Display the forecast cumulative production data
             st.subheader('Cumulative Production Forecast Data')
             st.write(pd.DataFrame({'Future Time (years)': future_t, 'Forecast Cumulative Production': forecast_cumulative}))
-
-
-
 
 
